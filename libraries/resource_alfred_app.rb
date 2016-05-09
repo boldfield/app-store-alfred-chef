@@ -25,7 +25,7 @@ class Chef
     # A Chef resource for the alfred app.
     #
     # @author Brian Oldfield <brian@oldfield.io>
-    class AlfredApp[ < Resource::LWRPBase
+    class AlfredApp < Resource::LWRPBase
       self.resource_name = :alfred_app
       actions :install, :enable, :start
       default_action [:install, :enable, :start]
