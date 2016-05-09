@@ -1,7 +1,7 @@
 # Encoding: UTF-8
 #
-# Cookbook Name:: divvy
-# Library:: provider_divvy_app_mac_os_x_app_store
+# Cookbook Name:: alfred
+# Library:: provider_alfred_app_mac_os_x_app_store
 #
 # Copyright 2015-2016, Jonathan Hartman
 #
@@ -19,8 +19,8 @@
 #
 
 require 'chef/provider/lwrp_base'
-require_relative 'provider_divvy_app'
-require_relative 'provider_divvy_app_mac_os_x'
+require_relative 'provider_alfred_app'
+require_relative 'provider_alfred_app_mac_os_x'
 
 class Chef
   class Provider

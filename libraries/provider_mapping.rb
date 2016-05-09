@@ -1,6 +1,6 @@
 # Encoding: UTF-8
 #
-# Cookbook Name:: divvy
+# Cookbook Name:: alfred
 # Library:: provider_mapping
 #
 # Copyright 2015-2016, Jonathan Hartman
@@ -23,5 +23,5 @@ require 'chef/platform/provider_mapping'
 require_relative 'provider_alfred_app'
 
 Chef::Platform.set(platform: :mac_os_x,
-                   resource: :divvy_app,
+                   resource: :alfred_app,
                    provider: Chef::Provider::AlfredApp::MacOsX::AppStore)
